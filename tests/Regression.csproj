@@ -1,0 +1,4 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup><OutputType>Exe</OutputType><TargetFramework>net8.0</TargetFramework><ImplicitUsings>enable</ImplicitUsings><Nullable>enable</Nullable></PropertyGroup>
+  <ItemGroup><Compile Include="../src/DiskModels.cs" Link="DiskModels.cs"/><Compile Include="../src/SmartParser.cs" Link="SmartParser.cs"/><Compile Include="../src/HealthEvaluator.cs" Link="HealthEvaluator.cs"/><Compile Include="../src/SmartReport.cs" Link="SmartReport.cs"/><Compile Include="../src/ReportWriter.cs" Link="ReportWriter.cs"/><Compile Include="../src/NativeDiskReader.cs" Link="NativeDiskReader.cs"/><Compile Include="../src/NvmeReader.cs" Link="NvmeReader.cs"/></ItemGroup>
+</Project>
